@@ -1,0 +1,39 @@
+mj-05@□□□P MINGW64 ~/OneDrive/デスクトップ/samurai/git_tutorial (main)
+$ cd ~/OneDrive/デスクトップ/samurai
+
+mj-05@□□□P MINGW64 ~/OneDrive/デスクトップ/samurai
+$ mkdir git_challenge
+
+mj-05@□□□P MINGW64 ~/OneDrive/デスクトップ/samurai
+$ cd ~/OneDrive/デスクトップ/samurai/git_challenge
+
+mj-05@□□□P MINGW64 ~/OneDrive/デスクトップ/samurai/git_challenge
+$ git init
+Initialized empty Git repository in C:/Users/mj-05/OneDrive/デスクトップ/samurai/git_challenge/.git/
+
+mj-05@□□□P MINGW64 ~/OneDrive/デスクトップ/samurai/git_challenge (main)
+$ touch hello_world.txt
+
+mj-05@□□□P MINGW64 ~/OneDrive/デスクトップ/samurai/git_challenge (main)
+$ echo "Hello, world!" > hello_world.txt
+
+mj-05@□□□P MINGW64 ~/OneDrive/デスクトップ/samurai/git_challenge (main)
+$ git add hello_world.txt
+warning: in the working copy of 'hello_world.txt', LF will be replaced by CRLF the next time Git touches it
+
+mj-05@□□□P MINGW64 ~/OneDrive/デスクトップ/samurai/git_challenge (main)
+$ git commit -m "1回目のコミット"
+[main ed2ace7] 1回目のコミット
+ 1 file changed, 1 insertion(+)
+
+mj-05@□□□P MINGW64 ~/OneDrive/デスクトップ/samurai/git_challenge (main)
+$ echo "こんにちは、世界!" > hello_world.txt
+
+mj-05@□□□P MINGW64 ~/OneDrive/デスクトップ/samurai/git_challenge (main)
+$ git add hello_world.txt
+warning: in the working copy of 'hello_world.txt', LF will be replaced by CRLF the next time Git touches it
+
+mj-05@□□□P MINGW64 ~/OneDrive/デスクトップ/samurai/git_challenge (main)
+$ git commit -m "2回目のコミット"
+[main 4316ff9] 2回目のコミット
+ 1 file changed, 1 insertion(+), 1 deletion(-)
