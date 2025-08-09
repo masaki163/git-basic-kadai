@@ -27,7 +27,7 @@ $ git commit -m "1回目のコミット"
  1 file changed, 1 insertion(+)
 
 mj-05@□□□P MINGW64 ~/OneDrive/デスクトップ/samurai/git_challenge (main)
-$ echo "こんにちは、世界!" > hello_world.txt
+$ echo "こんにちは、世界!" >> hello_world.txt
 
 mj-05@□□□P MINGW64 ~/OneDrive/デスクトップ/samurai/git_challenge (main)
 $ git add hello_world.txt
@@ -35,5 +35,10 @@ warning: in the working copy of 'hello_world.txt', LF will be replaced by CRLF t
 
 mj-05@□□□P MINGW64 ~/OneDrive/デスクトップ/samurai/git_challenge (main)
 $ git commit -m "2回目のコミット"
-[main 4316ff9] 2回目のコミット
- 1 file changed, 1 insertion(+), 1 deletion(-)
+[main 81e2d47] 2回目のコミット
+ 1 file changed, 1 insertion(+)
+
+mj-05@□□□P MINGW64 ~/OneDrive/デスクトップ/samurai/git_challenge (main)
+$ git log --oneline
+81e2d47 (HEAD -> main) 2回目のコミット
+ed2ace7 1回目のコミット
